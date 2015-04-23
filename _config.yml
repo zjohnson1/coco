@@ -2,3 +2,4 @@
 name: coco repo
 
 # server configs
+baseurl: /coco
