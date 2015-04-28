@@ -6,11 +6,4 @@ layout: default
 
 	<h1>{{ site.name }}</h1>
 	
-	<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Apple_Computer_Logo_rainbow.svg/2000px-Apple_Computer_Logo_rainbow.svg.png">
-
-	{% for post in site.posts %}
-	
-		<h3>{{ post.title }}</h3>
-		<p>{{ post.content }}</p>
-	
-	{% endfor %}
+	{% include_relative _posts/1776-07-04-fourth.md %}
